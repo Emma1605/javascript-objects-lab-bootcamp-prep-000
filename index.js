@@ -7,3 +7,6 @@ function updateObjectWithKeyAndValue(object, key, value)
 
 function destrictivelyUpdateObjectWithKeyAndValue(object, key, value)
 {
+  object[key] = value
+  return
+}
