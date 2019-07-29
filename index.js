@@ -1,4 +1,4 @@
-var recipes = new Object();
+var recipes = new Object{}
 
 Function updateObjectWithKeyAndValue(object, key, value)
 {
